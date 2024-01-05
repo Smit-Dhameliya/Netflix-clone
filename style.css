@@ -35,6 +35,32 @@ nav {
     padding-right: 10px;
 }
 
+.lang{
+    box-sizing: border-box;
+    height: 25px;
+    width: 80px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid grey;
+    color: white;
+    padding: 2px 18px;
+    font-size: 13px;
+    border-radius: 2px;
+}
+
+.signin{
+    box-sizing: border-box;
+    height: 25px;
+    font-size: 13px;
+    padding: 2px 8px;
+    margin-left: 12px;
+    border: 2px solid red;
+    border-radius: 3px;
+    font-weight: 500;
+    background-color: red;
+    color: white;
+}
+
 .text{
     display: flex;
     flex-direction: column;
@@ -140,4 +166,21 @@ nav {
     align-self: center;
     padding: 10px;
     width: min(500px,90vw);
+}
+
+footer{
+    background-color: black;
+}
+
+.table{
+    font-size:small;
+    width: 60vw;
+    margin: auto;
+    padding: 50px 0px;
+    color: rgb(170, 170, 170);
+    background-color: black;
+}
+
+.table td{
+    padding: 5px 0px;
 }
